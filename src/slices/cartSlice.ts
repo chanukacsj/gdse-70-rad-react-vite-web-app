@@ -26,6 +26,9 @@ const cartSlice = createSlice({
                     itemCount: 1
                 });
             }
+        },
+        increaseQuantity(state:CartState, action:ReturnType<Number>){
+
         }
     },
 });
